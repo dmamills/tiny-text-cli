@@ -1,8 +1,11 @@
 {
   "name": "tiny-text-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tiny text for the cli",
   "main": "index.js",
+  "bin": {
+    "tiny-text": "index.js"
+  },
   "repository": "https://github.com/dmamills/tiny-text-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
