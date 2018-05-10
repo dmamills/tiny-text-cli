@@ -1,6 +1,6 @@
 {
   "name": "tiny-text-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "tiny text for the cli",
   "main": "index.js",
   "bin": {
