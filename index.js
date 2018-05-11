@@ -8,7 +8,8 @@ const cli = meow(`
 `);
 
 function tt() {
-  console.log(tinyText(cli.input.join(' ')));
+  const tinyBois = tinyText(cli.input.join(' '));
+  process.stdout.write(`${tinyBois}\n`);
 }
 
 tt();
